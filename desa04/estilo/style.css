@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,sans-serif;
+}
+
+.titulo{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.paragrafo{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.table-prince,.tabModa,.tabCasa{
+    border: 1px solid #fff;
+    background-color: #424250;
+    color: #fff;
+}
+
+.table-prince{
+    width: 250px;
+    table-layout: auto;
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+.produtos,.tabCasa,.tabModa{
+    height: 35px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabModa{
+    background-color: #bb86fc;
+}
+
+.tabCasa{
+    background: #00c4b4;
+}
+
+.produtos{
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+}
