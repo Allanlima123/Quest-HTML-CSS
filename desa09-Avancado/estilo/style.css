@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    outline:none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #5BC241;
+    padding: 1.2rem 2rem;
+    border-radius: 1rem;
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 4%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.cabecalho .logo img{
+    height: 4rem;
+    object-fit: cover;
+}
+
+.cabecalho .logo h1{
+    color: #000;
+    font-size: 2rem;
+}
+
+.cabecalho .navbar,ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho .navbar ul li a{
+    font-size: 1.5rem;
+    padding: 1.5rem 1.8rem;
+    color: #000;
+}
+
+.cabecalho .navbar ul li a:hover{
+    font-size: 1.5rem;
+    color: #fff;
+    background: #5BC241;
+    padding: 1.5rem 1.8rem;
+}
+
+@media (max-width:768px){
+    
+
+    .cabecalho .logo{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cabecalho .logo img{
+        height: 3.5rem;
+    }
+
+    .cabecalho .logo h1{
+        font-size: 2.5rem;
+    }
+
+    .cabecalho .navbar, ul{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .cabecalho .navbar ul li{
+        margin: 3rem 0;
+    }
+
+    .cabecalho .navbar ul li a{
+        font-size: 2.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .cabecalho .navbar ul li a:hover{
+        font-size: 2.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .btn{
+        margin: 1.5rem 0;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width:375px){
+
+    .cabecalho .navbar ul li a{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .cabecalho .navbar ul li a:hover{
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .btn{
+        margin: 1.5rem 0;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    border:none;
+    outline:none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box-galeria{
+    max-width: 144rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.box-galeria .galeria{
+    display: inline-block;
+    width: 30rem;
+    height: 45rem;
+    margin: .5rem;
+    position: relative;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.box-galeria .galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-galeria .galeria .texto{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    color: #fff;
+    text-align: start;
+}
+
+.box-galeria .galeria .texto h3{
+    font-size: 3rem;
+}
+
+.box-galeria .galeria .texto p{
+    font-size: 1.7rem;
+}
+
+
+@media(max-width:450px){
+    .box-galeria .galeria{
+        width: 100%;
+    }
+}

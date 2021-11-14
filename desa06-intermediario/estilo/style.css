@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    border:none;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 144rem;
+    padding-top: 5rem;
+}
+
+.container .informacoes-text{
+    max-width: 37rem;
+    margin: 0 5rem;
+}
+
+.container .informacoes-text h1{
+    color: #000;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container .informacoes-text p{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.container .informacoes-text .btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background-color: #5BC241;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.container .image{
+    width: 85rem;
+    height: 350px;
+}
+.container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:768px){
+    .container{
+        display: block;
+        text-align: center;
+        position: relative;
+        min-height: 60rem;
+        margin: 0 3rem;
+    }
+
+    .container .informacoes-text{
+        max-width: 50rem;
+        margin:0 auto;
+    }
+
+    .container .informacoes-text p{
+        margin-bottom: 2rem;
+    }
+
+    .container .image{
+        width: 100%;
+        height: 30rem;
+    }
+    .container .image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .informacoes-text .btn{
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 1rem 2.5rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:425px){
+
+    .container .informacoes-text p{
+        margin-bottom: 2rem;
+    }
+
+    .container .image{
+        width: 100%;
+        height: 18rem;
+    }
+    .container .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container .informacoes-text .btn{
+        bottom: 10rem;
+    }
+}
+
+@media(max-width:375px){
+
+    .container{
+        margin: 2rem;
+    }
+
+    .container .image{
+        width: 100%;
+        height: 13rem;
+    }
+    .container .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container .informacoes-text .btn{
+        bottom: 15rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media(max-width:320px){
+    .container .informacoes-text .btn{
+        bottom: 9rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.2rem;
+    }
+}
+
+
+
+

@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Public Sans',sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.box-container{
+    min-height: 100vh;
+    background: #181D29;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box-container .box{
+    max-width:40rem;
+    color: #fff;
+    padding: 2.5rem;
+    margin: 1.5rem;
+}
+
+.box-container .box:hover{
+    transform: scale(1.05);
+}
+
+.box-container .box img{
+    height: 8rem;
+}
+
+.box-container .box h3{
+    font-size: 2.9rem;
+    padding: 1.5rem 0;
+}
+
+.box-container .box p{
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+
+

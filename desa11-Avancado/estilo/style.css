@@ -1,0 +1,140 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*.Grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 1.5rem;
+    max-width: 100rem;
+    min-height: 80vh;
+    margin: 10rem auto;
+}
+
+.div1{
+    grid-column: 1 / 4;
+    grid-row: 1 /  3;
+    background: #999;
+}
+
+.Propaganda{
+    background: #999;
+    grid-column: 4 / 7;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.div3{
+    grid-column: 4 / 5;
+    grid-row: 2 / 2;
+    background: #999;
+}
+
+.titulo-grande{
+    grid-column:  5 / 7;
+    grid-row: 2 / 2;
+}
+
+.titulo-grande h3{
+    font-size: 2rem;
+}
+
+.texto{
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+}
+
+.texto h3{
+    font-size: 3rem;
+}
+
+.texto span{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.texto p{
+    font-size: 2rem;
+}
+
+.div6{
+    background: #999;
+    grid-column: 4 / 5;
+    grid-row: 3 / 3;
+}
+
+.div7{
+    grid-column: 5 / 7;
+    grid-row: 3 / 4;
+}
+
+.div8{
+    background: #999;
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+}
+
+.div9{
+    grid-column: 5 / 7;
+    grid-row: 4 / 6;
+}*/
+
+.Grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 100vh;
+    gap: 20px;
+    background-color: #f00;
+    padding: 40px;
+}
+
+.video-principal{
+    background-color: darkblue;
+    grid-column: 1 / 4;
+    grid-row: 1/ 4;
+    
+}
+
+.Propaganda{
+    background-color: purple;
+    grid-column: 4 / 7;
+    grid-row: 1 /  3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.titulo-texto{
+    background-color: green;
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+.titulo-01-grande{
+    background-color: seagreen;
+    grid-column: 4 / 7;
+    grid-row: 3 / 3;
+    display: flex;
+}
+
+
+
+

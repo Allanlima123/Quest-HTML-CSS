@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    outline:none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.cabecalho{
+    padding: 2rem 9%;
+    position: relative;
+}
+
+.cabecalho .logo{
+    font-size: 2rem;
+}
+
+.cabecalho .logo img{
+    height: 4.3rem;
+}
+
+.cabecalho .logo span{
+    font-weight: 800;
+    line-height: 4.5rem;
+    position: absolute;
+    color: #000;
+}
+
+.cabecalho .navbar{
+    display: inline-block;
+    position: absolute;
+    right: 5rem;
+    font-size: 1.5rem;
+}
+
+.cabecalho .navbar ul{
+    margin-right: 3rem;
+    float: left;
+    line-height: 4.5rem;
+}
+
+.cabecalho .navbar ul li{
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.cabecalho .navbar ul li a{
+    color: #000;
+    padding: 1.2rem 1.2rem;
+    font-weight: 400;
+}
+
+.cabecalho .navbar ul li a:hover{
+    color: #fff;
+    background-color: #5BC241;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #5BC241;
+    padding: 1.3rem 2rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .cabecalho .logo{
+        width: 100%;
+        text-align: center;
+        padding-right: 6.5rem;
+        display: block;
+        margin-bottom: 4rem;
+        font-size: 3rem;
+    }
+
+    .cabecalho .navbar{
+        width: 100%;
+        text-align: center;
+        right: 0rem;
+    }
+
+    .cabecalho .navbar ul{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .cabecalho .navbar ul li{
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .cabecalho .navbar ul li a{
+        padding: 1.5rem 2.5rem;
+    }
+
+    .btn{
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+
+}
+
+
+@media (max-width:375px){
+
+    /*.cabecalho .logo{
+        width: 100%;
+        text-align: center;
+        padding-right: 6rem;
+        display: block;
+    }
+
+    .cabecalho .navbar{
+        width: 100%;
+        position: static;
+        text-align: center;
+        right: 0rem;
+    }
+
+    .cabecalho .navbar ul{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .cabecalho .navbar ul li{
+        display: block;
+        margin-bottom: 1rem;
+    }*/
+    .cabecalho .logo{
+        display: block;
+        width: 100%;
+        padding-right: 6.5rem;
+        text-align: center;
+    }
+
+    .cabecalho .logo img{
+        height: 4rem;
+    }
+
+    .cabecalho .logo span{
+        line-height: 4rem;
+    }
+
+    .cabecalho .navbar{
+        width: 100%;
+        text-align: center;
+        right: 0rem;
+    }
+
+    .cabecalho .navbar ul li a{
+        padding: 1.5rem 3rem;
+    }
+
+    .btn{
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem;
+    }
+}
