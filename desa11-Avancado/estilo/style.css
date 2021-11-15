@@ -12,7 +12,6 @@ html{
     font-size: 62.5%;
 }
 
-
 .container-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -27,7 +26,6 @@ html{
 
 .tela-video-grande{
     grid-area: tela-video-grande;
-    height: 100%;
 }
 
 .video-grande{
@@ -36,14 +34,13 @@ html{
 }
 
 .texto-em-destaque{
-    grid-area: texto-em-destaque;
     height: 257px;
     padding: 15px 0;
 }
  
 .texto-em-destaque span{
     display: block;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 20px;
 }
 
