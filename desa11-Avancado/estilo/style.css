@@ -20,9 +20,9 @@ html{
     grid-template-areas: 
     "tela-video-grande propagranda"
     "tela-video-grande videos-sugeridos";
-    gap: 15px;
+    gap: 20px;
     margin: 20px;
-    height: 90vh;
+    height: 92vh;
 }
 
 .tela-video-grande{
