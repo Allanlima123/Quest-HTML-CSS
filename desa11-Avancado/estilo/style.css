@@ -14,15 +14,24 @@ html{
 
 
 .container-grid{
-    margin: 20px;
     display: grid;
-    min-height: 100vh;
-    grid: "tela-video-grande tela-video-grande propagranda";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "tela-video-grande propagranda"
+    "tela-video-grande videos-sugeridos";
+    gap: 15px;
+    margin: 20px;
 }
 
 .tela-video-grande{
     grid-area: tela-video-grande;
     background-color: red;
+    height: 100%;
+}
+
+.video-grande{
+    grid-area: video-grande;
 }
 
 .texto-em-destaque{
@@ -33,6 +42,14 @@ html{
 .propagranda{
     grid-area: propagranda;
     background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.videos-sugeridos{
+    grid-area: videos-sugeridos;
 }
 
 .tela-video-pequena-01{
@@ -43,6 +60,7 @@ html{
 .tela-video-pequena-02{
     grid-area: tela-video-pequena-02;
     background-color: turquoise;
+    margin: 15px 0;
 }
 
 .tela-video-pequena-03{
