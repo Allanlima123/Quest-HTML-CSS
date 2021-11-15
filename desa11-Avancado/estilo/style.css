@@ -22,26 +22,39 @@ html{
     "tela-video-grande videos-sugeridos";
     gap: 15px;
     margin: 20px;
+    height: 90vh;
 }
 
 .tela-video-grande{
     grid-area: tela-video-grande;
-    background-color: red;
     height: 100%;
 }
 
 .video-grande{
-    grid-area: video-grande;
+    background-color: #aaa;
+    height: 400px;
 }
 
 .texto-em-destaque{
     grid-area: texto-em-destaque;
-    background-color: blue;
+    height: 257px;
+    padding: 15px 0;
 }
+ 
+.texto-em-destaque span{
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.texto-em-destaque p{
+    font-size: 20px;
+}
+
 
 .propagranda{
     grid-area: propagranda;
-    background-color: yellow;
+    background-color: #aaa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,18 +65,53 @@ html{
     grid-area: videos-sugeridos;
 }
 
+.video{
+    height: 130px;
+    width: 200px;
+    background: #aaa;
+    margin-right: 10px;
+}
+
 .tela-video-pequena-01{
     grid-area: tela-video-pequena-01;
-    background-color: green;
+    display: flex;
 }
+
+.tela-video-pequena-01 .descricao-video h2{
+    font-size: 25px;
+}
+
+.tela-video-pequena-01 .descricao-video p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
 
 .tela-video-pequena-02{
     grid-area: tela-video-pequena-02;
-    background-color: turquoise;
     margin: 15px 0;
+    display: flex;
+}
+
+.tela-video-pequena-02 .descricao-video h2{
+    font-size: 25px;
+}
+
+.tela-video-pequena-02 .descricao-video p{
+    margin: 10px 0;
+    font-size: 15px;
 }
 
 .tela-video-pequena-03{
     grid-area: tela-video-pequena-03;
-    background-color: purple;
+    display: flex;
+}
+
+.tela-video-pequena-03 .descricao-video h2{
+    font-size: 25px;
+}
+
+.tela-video-pequena-03 .descricao-video p{
+    margin: 10px 0;
+    font-size: 15px;
 }
