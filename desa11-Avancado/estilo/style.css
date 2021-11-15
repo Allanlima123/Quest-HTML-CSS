@@ -70,7 +70,6 @@ html{
 }
 
 .tela-video-pequena-01{
-    grid-area: tela-video-pequena-01;
     display: flex;
 }
 
@@ -85,7 +84,6 @@ html{
 
 
 .tela-video-pequena-02{
-    grid-area: tela-video-pequena-02;
     margin: 15px 0;
     display: flex;
 }
@@ -100,7 +98,6 @@ html{
 }
 
 .tela-video-pequena-03{
-    grid-area: tela-video-pequena-03;
     display: flex;
 }
 
