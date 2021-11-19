@@ -16,6 +16,11 @@ html{
     font-size: 62.5%;
 }
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .cabecalho{
     padding: 2rem 9%;
     position: relative;
@@ -78,11 +83,17 @@ html{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:991px){
+
+    .cabecalho .logo span{
+        position: relative;
+        bottom: 10px;
+    }
+
     .cabecalho .logo{
         width: 100%;
         text-align: center;
-        padding-right: 6.5rem;
+        padding: 0;
         display: block;
         margin-bottom: 4rem;
         font-size: 3rem;
@@ -91,7 +102,7 @@ html{
     .cabecalho .navbar{
         width: 100%;
         text-align: center;
-        right: 0rem;
+        right: 0;
     }
 
     .cabecalho .navbar ul{
@@ -119,43 +130,16 @@ html{
 
 
 @media (max-width:375px){
-
-    /*.cabecalho .logo{
-        width: 100%;
-        text-align: center;
-        padding-right: 6rem;
-        display: block;
-    }
-
-    .cabecalho .navbar{
-        width: 100%;
-        position: static;
-        text-align: center;
-        right: 0rem;
-    }
-
-    .cabecalho .navbar ul{
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .cabecalho .navbar ul li{
-        display: block;
-        margin-bottom: 1rem;
-    }*/
+    
     .cabecalho .logo{
         display: block;
         width: 100%;
-        padding-right: 6.5rem;
+        padding: 0;
         text-align: center;
     }
 
     .cabecalho .logo img{
-        height: 4rem;
-    }
-
-    .cabecalho .logo span{
-        line-height: 4rem;
+        height: 4.5rem;
     }
 
     .cabecalho .navbar{

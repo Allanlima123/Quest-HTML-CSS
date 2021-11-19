@@ -15,8 +15,9 @@ html{
 
 .box-galeria{
     max-width: 144rem;
-    margin-top: 3rem;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 15px;
 }
 
 .box-galeria .galeria{
