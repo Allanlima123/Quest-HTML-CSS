@@ -8,6 +8,7 @@
     font-family: 'Public Sans', sans-serif;
     border:none;
     outline: none;
+    text-decoration: none;
 }
 
 html{
@@ -19,26 +20,27 @@ html{
     align-items: center;
     justify-content: space-between;
     max-width: 144rem;
-    padding-top: 5rem;
+    padding: 3rem 0;
+    margin: 0 auto;
 }
 
-.container .informacoes-text{
-    max-width: 37rem;
+.container .descricao-do-banco{
+    width: 37rem;
     margin: 0 5rem;
 }
 
-.container .informacoes-text h1{
+.container .descricao-do-banco h1{
     color: #000;
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-.container .informacoes-text p{
+.container .descricao-do-banco p{
     font-size: 2rem;
     margin-bottom: 5rem;
 }
 
-.container .informacoes-text .btn{
+.container .descricao-do-banco .btn{
     display: inline-block;
     padding: 1rem 3rem;
     border-radius: 1rem;
@@ -51,10 +53,33 @@ html{
     width: 85rem;
     height: 350px;
 }
+
 .container .image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (max-width:1024px){
+    .container .descricao-do-banco{
+        width: 30rem;
+        margin: 0 3rem;
+    }
+
+    .container .descricao-do-banco h1{
+        color: #000;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .container .descricao-do-banco p{
+        margin-bottom: 3rem;
+    }
+
+    .container .image{
+        width: 75rem;
+        height: 300px;
+    }
 }
 
 @media (max-width:768px){
@@ -63,31 +88,28 @@ html{
         text-align: center;
         position: relative;
         min-height: 60rem;
-        margin: 0 3rem;
+        margin: 0 auto;
     }
 
-    .container .informacoes-text{
+    .container .descricao-do-banco{
         max-width: 50rem;
         margin:0 auto;
     }
 
-    .container .informacoes-text p{
-        margin-bottom: 2rem;
-    }
-
     .container .image{
-        width: 100%;
-        height: 30rem;
+        width: 90%;
+        height: 22rem;
+        margin: 0 auto;
     }
     .container .image img{
         width: 100%;
         height: 100%;
     }
 
-    .container .informacoes-text .btn{
+    .container .descricao-do-banco .btn{
         display: inline-block;
         position: absolute;
-        bottom: 0;
+        bottom: 10rem;
         left: 50%;
         transform: translateX(-50%);
         padding: 1rem 2.5rem;
@@ -97,13 +119,13 @@ html{
 
 @media(max-width:425px){
 
-    .container .informacoes-text p{
-        margin-bottom: 2rem;
+    .container .descricao-do-banco{
+        width: 90%;
     }
 
     .container .image{
-        width: 100%;
-        height: 18rem;
+        width: 90%;
+        height: 15rem;
     }
     .container .image img{
         width: 100%;
@@ -111,44 +133,20 @@ html{
         object-fit: cover;
     }
 
-    .container .informacoes-text .btn{
-        bottom: 10rem;
+    .container .descricao-do-banco .btn{
+        bottom: 17rem;
+        width: 17rem;
     }
 }
 
-@media(max-width:375px){
-
-    .container{
-        margin: 2rem;
-    }
-
-    .container .image{
-        width: 100%;
-        height: 13rem;
-    }
-    .container .image img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .container .informacoes-text .btn{
+@media (max-width:320px){
+    .container .descricao-do-banco .btn{
         bottom: 15rem;
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
     }
 }
 
-@media(max-width:320px){
-    .container .informacoes-text .btn{
-        bottom: 9rem;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 1.2rem;
-    }
-}
+
 
 
 
