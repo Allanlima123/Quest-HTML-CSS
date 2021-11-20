@@ -17,11 +17,11 @@ html{
 
 .container{
     display:flex;
-    align-items: center;
     justify-content: space-between;
     max-width: 144rem;
     padding: 3rem 0;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 .container .descricao-do-banco{
@@ -134,7 +134,14 @@ html{
     }
 
     .container .descricao-do-banco .btn{
+        bottom: 19rem;
         width: 17rem;
+    }
+}
+
+@media (max-width:375px){
+    .container .descricao-do-banco .btn{
+        bottom: 15rem;
     }
 }
 

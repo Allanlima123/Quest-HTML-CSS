@@ -52,8 +52,8 @@ html{
 }
 
 
-@media(max-width:450px){
+@media(max-width:478px){
     .box-galeria .galeria{
-        width: 100%;
+        width: 90%;
     }
 }
