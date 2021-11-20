@@ -134,17 +134,11 @@ html{
     }
 
     .container .descricao-do-banco .btn{
-        bottom: 17rem;
         width: 17rem;
     }
 }
 
-@media (max-width:320px){
-    .container .descricao-do-banco .btn{
-        bottom: 15rem;
-        position: absolute;
-    }
-}
+
 
 
 
