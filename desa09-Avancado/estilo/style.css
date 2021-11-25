@@ -18,7 +18,6 @@ html{
 }
 
 .btn{
-    display: inline-block;
     color: #fff;
     background: #5BC241;
     padding: 1.2rem 2rem;
@@ -74,8 +73,6 @@ html{
 }
 
 @media (max-width:768px){
-    
-
     .cabecalho .logo{
         width: 100%;
         justify-content: center;

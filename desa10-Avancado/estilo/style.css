@@ -17,13 +17,11 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /*align-items: center;*/
     margin: 2rem 2rem;
 }
 
 .box-galeria .galeria{
     flex: 1 1 27rem;
-    /*max-width: 27rem;*/
     height: 45rem;
     margin: 1rem;
     position: relative;
