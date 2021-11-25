@@ -39,9 +39,10 @@ html{
 }
 
 .texto-em-destaque{
-    height: 250px;
+    height: 198px;
     padding: 15px 0;
 }
+
  
 .texto-em-destaque span{
     display: block;
